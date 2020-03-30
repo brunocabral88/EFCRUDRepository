@@ -1,7 +1,18 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <PackageId>EFCrudRepository.Generic</PackageId>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Authors>Bruno Farias</Authors>
+    <Company />
+    <Product />
+    <PackageTags>Repository; Entity Framework Repository; Entity Framework Core Repository; EF Repository; EF Core Repository</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageProjectUrl>https://github.com/brunocabral88/EFCRUDRepository/</PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <Description>Generic Implementaion of the Repository Pattern that allows for faster development of application's data-access layer</Description>
   </PropertyGroup>
 
   <ItemGroup>
